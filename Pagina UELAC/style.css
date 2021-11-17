@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+
+}
+
+.main-header {
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://source.unsplash.com/9o8YdYGTT64);
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+    height: 98vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    position: relative;
+}
+
+.main-nav {
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    padding: 20px 40px;
+    font-size: 1.3rem;
+    color:#fff;
+
+}
+
+ul {
+    display: flex;
+    margin-left: auto;
+    margin-right: 100px;
+
+}
+
+ul  a {
+    display: inline-block;
+    padding: 28px 48px;
+    font-size: 1.3rem;
+    color: #fff;
+    text-decoration: none;
+
+}
+ul a:hover{
+    background: #0e60bd;
+}
+.contenedor {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+.contenedor h1{
+    font-size: 7rem;
+}
+.contenedor p{
+    font-size: 1.5rem;
+    margin: 10px 30px;
+}
+
+.contenedor a{
+    font-size: 1.3rem;
+    display: inline-block;
+    padding:15px 20px;
+    background: #4141ef;
+    color:#fff;
+    text-decoration: none;
+
+}
+.contenedor a:hover{
+    background: #6868f1;
+    border:2px solid #fff;
+    padding: 13px 18px;
+}
+
+
